@@ -1,0 +1,9 @@
+/*NavBar Styling Start*/
+
+@media only screen and (max-width:580px) {
+    .navi_searchbar_wrapper{
+        margin-left: 0!important;
+    }
+}
+
+/*NavBar Styling End*/

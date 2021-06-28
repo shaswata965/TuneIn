@@ -1,0 +1,44 @@
+/*NavBar Styling Start*/
+
+
+
+.index3_sidebar{
+    position: fixed;
+    z-index: 999;
+}
+
+.m24_navi_main_wrapper{
+    position: fixed;
+    z-index: 999;
+}
+
+.navi_searchbar_wrapper{
+    margin-left: 50px!important;
+}
+
+/*NavBar Styling End*/
+
+/*Landing Section Styling Start*/
+
+.slider-top-margin{
+    margin-top: 30px;
+}
+
+/*Landing Section Styling End*/
+
+/*Contact Section Styling Start*/
+
+.contact_section .m24_heading_wrapper h1,.contact_section .m24_heading_wrapper p{
+    color:#ffffff;
+}
+
+/*Contact Styling End*/
+
+/*Footer Section Start*/
+
+.index3_bottom_footer{
+    margin-bottom: 0!important;
+}
+
+
+/*Footer Section End*/
