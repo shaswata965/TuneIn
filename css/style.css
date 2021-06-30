@@ -1031,7 +1031,7 @@ span.comboTreeItemTitle{
 	top:2px;
 }
 .lang_apply_btn{
-	float:left;
+	float:right;
 	display:inline-block;
 }
 .cancel_wrapper{
@@ -6510,7 +6510,7 @@ span.ovrly_text2 {
 	background:#221042;
 }
 /**----- index 3 wrapper css -------**/
-.index3_main_header, .index3_treanding_wraaper, .index3_release_wrapper, .index3_top_songs_wrapper, .index3_punjabi_songs, .index3_featured_song_slider .various_song_playlist, .index3_pricing_plans, .index3_blog_wrapper, .index3_partners_section, .index3_footer_wrapper, .index3_bottom_footer, .index3_lang_wrapper .lang_list_checkbox li:hover, .index3_main_header .crm_message_dropbox_wrapper .nice-select .list, .contact_section{
+.index3_main_header, .index3_treanding_wraaper, .index3_release_wrapper, .index3_top_songs_wrapper, .index3_punjabi_songs, .index3_featured_song_slider .various_song_playlist, .index3_pricing_plans, .index3_blog_wrapper, .index3_partners_section, .index3_footer_wrapper, .index3_bottom_footer, .index3_lang_wrapper .lang_list_checkbox li:hover, .index3_main_header .crm_message_dropbox_wrapper .nice-select .list, .contact_section,.artist_wrapper{
 	background:#04031d;
 }
 .index3_sidebar, .index3_sidebar #toggle_close, .index3_sidebar #cssmenu > ul > li > a{
