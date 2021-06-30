@@ -1,6 +1,6 @@
 <!doctypehtml>
 <html lang=en-us>
-<meta content="text/html;charset=utf-8"http-equiv=content-type>
+<meta content="text/html;charset=utf-8" http-equiv=content-type>
 <head>
     <meta charset=utf-8>
     <title>Tunein Responsive HTML Template</title>
@@ -16,6 +16,7 @@
     <link href=css/fonts.css rel=stylesheet>
     <link href=css/flaticon.css rel=stylesheet>
     <link href=css/font-awesome.css rel=stylesheet>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href=css/owl.carousel.css rel=stylesheet>
     <link href=css/owl.theme.default.css rel=stylesheet>
     <link href=css/nice-select.css rel=stylesheet>
@@ -25,11 +26,12 @@
     <link href=css/responsive.css rel=stylesheet>
     <link href=css/custom.css rel=stylesheet>
     <link href=css/custom_responsive.css rel=stylesheet>
+    <link href="css/space.css" rel="stylesheet">
     <link href=images/favicon.png rel="shortcut icon" type=image/png>
     <script src=../../google_analytics_auto.html></script></head>
 <body>
 <div class=m24_main_wrapper>
-    <div class="bounce-to-right index3_sidebar"id=sidebar>
+    <div class="bounce-to-right index3_sidebar" id=sidebar>
         <div id=toggle_close>×</div>
         <div id=cssmenu>
             <a href="#"><img alt=logo src=images/logo3.png></a>
@@ -53,7 +55,7 @@
                 <li class=has-sub><a href=#><i class=flaticon-playlist-1></i>your music</a>
                     <ul>
                         <li><a href="#"><i class=flaticon-download></i>download</a></li>
-                        <li><a href="#"><i class=flaticon-heart></i>favourite</a></li>
+                        <li><a href="user.html#favourite"><i class=flaticon-heart></i>favourite</a></li>
                     </ul>
                 </li>
                 <li><a href="#"><i class=flaticon-internet></i>contact us</a></li>
@@ -3193,7 +3195,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-pos">
-                                    <div class="form-group i-name">
+                                    <div class="form-group i-name contact-form-custom">
 
                                         <input type="text" class="form-control require" name="first_name" required="" placeholder="First Name*">
 
@@ -3202,7 +3204,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-pos">
-                                    <div class="form-group i-name">
+                                    <div class="form-group i-name contact-form-custom">
 
                                         <input type="text" class="form-control require" name="last_name" required="" placeholder="last Name*">
 
@@ -3212,7 +3214,7 @@
                             <!-- /.col-md-12 -->
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-e">
-                                    <div class="form-group i-email">
+                                    <div class="form-group i-email contact-form-custom">
                                         <input type="email" class="form-control require" name="email" required="" placeholder=" Email *" data-valid="email" data-error="Email should be valid.">
 
                                     </div>
@@ -3221,7 +3223,7 @@
                             <!-- /.col-md-12 -->
                             <div class="col-lg-6 col-md-6">
                                 <div class="form-s">
-                                    <div class="form-group i-subject">
+                                    <div class="form-group i-subject contact-form-custom">
 
                                         <input type="text" class="form-control require" name="Subject" required="" placeholder="subject">
 
@@ -3231,7 +3233,7 @@
                             <!-- /.col-md-12 -->
                             <div class="col-md-12">
                                 <div class="form-m">
-                                    <div class="form-group i-message">
+                                    <div class="form-group i-message contact-form-custom">
 
                                         <textarea class="form-control require" name="message" required="" rows="5" id="messageTen" placeholder=" Message"></textarea>
 
@@ -3565,7 +3567,7 @@
                     </div>
                     <div class="m24_cover lang_apply_btn_wrapper">
                         <div class=lang_apply_btn>
-                            <a href=#>login now</a>
+                            <a href=user.html>login now</a>
                         </div>
                         <div class=cancel_wrapper>
                             <a href=# data-dismiss=modal>cancel</a>
