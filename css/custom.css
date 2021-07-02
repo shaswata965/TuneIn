@@ -87,11 +87,26 @@
     color: #FFFFFF!important;
 }
 
-.favourite-dash-playlist h3{
+.favourite-dash-playlist h1{
     color: #FFFFFF;
+    position: relative;
+}
+.favourite-dash-playlist h1::before{
+    position: absolute;
+    content: "";
+    background-color: #fa5840;
+    width: 22%;
+    height: 2px;
+    top:140%;
+    left:40%;
 }
 
-.favourite-dash-playlist h3 i{
+.favourite-dash-playlist .playlist-desc{
+    font-size: 14px;
+    color: #fa5840;
+}
+
+.favourite-dash-playlist h1 i{
     color: #fa5b41;
 }
 
@@ -124,6 +139,38 @@
 }
 
 /*User Dashboard Styling End*/
+
+/*Login Modal Styling Start*/
+
+.google-btn
+{
+    background-color: #DD4B39;
+    color: white;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.google-btn:hover{
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+
+.google-btn:active, .google-btn:focus, .facebook-btn:active, .facebook-btn:focus{
+    box-shadow: none;
+}
+
+.facebook-btn
+{
+    background-color: #4C69BA;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.facebook-btn:hover{
+    opacity: 0.7;
+    color: #FFFFFF;
+}
+
+/*Login Modal Styling End*/
 
 /*Footer Section Start*/
 
