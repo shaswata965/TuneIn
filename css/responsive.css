@@ -260,7 +260,7 @@
         right: 0
     }
     .album_list_wrapper {
-        width: 120%
+        width: 100%
     }
     .album_list_wrapper2 {
         overflow-y: hidden;
@@ -476,7 +476,7 @@
         overflow-x: scroll
     }
     .album_list_wrapper {
-        width: 120%
+        width: 100%
     }
     .blog_responsive,
     .prs_es_about_main_section_wrapper2 {
@@ -730,7 +730,7 @@
         overflow-x: scroll
     }
     .album_list_wrapper {
-        width: 120%
+        width: 100%
     }
     .filter-area .showpro {
         float: left;

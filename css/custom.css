@@ -47,30 +47,27 @@
 
 .user-card{
     border-color: #fa5b41;
-    transition: all 0.5s ease-in-out 0s;
-}
-
-.user-card:hover{
     box-shadow: 0 0 7px 3px #fa5b41;
 }
 
+
 .user-dash-image img{
-    height:300px;
-    width: 300px;
+    height:175px;
+    width: 175px;
     border: 1px solid #fa5b41;
     border-radius: 10px;
 }
 
 .user-dash-description p span{
     display: inline-block;
-    width: 13rem;
+    width: 8rem;
     color: #fa5b41;
 }
 
 .user-dash-description p{
-    padding: 13px;
-    font-size: 22px;
-    color: #ffffff;
+    padding: 7px;
+    font-size: 14px;
+    color: #797979;
 }
 
 .album_inner_list, .album_list_wrapper{
@@ -116,6 +113,14 @@
 .pagination li .active{
     background-color: #fa5b41!important;
     color: #04031d!important;
+}
+
+.favourite-dash-playlist-name h5{
+    color:#fa5b41;
+}
+
+.favourite-dash-playlist-name h5 i{
+    color: #fa5840;
 }
 
 /*User Dashboard Styling End*/
