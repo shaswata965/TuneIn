@@ -4290,8 +4290,8 @@ body.off-canvas-overlay-on {
 	width:100%;
 	height:100%;
 	position:relative;
-	padding-top:60px;
-	padding-bottom:50px;
+	padding-top:40px;
+	padding-bottom:5px;
 }
 .title_img_overlay{
 	position:absolute;
@@ -4304,12 +4304,12 @@ body.off-canvas-overlay-on {
 .indx_title_left_wrapper{
 	text-align:center;
 }
-.indx_title_left_wrapper h2{
-	font-size:50px;
+.indx_title_left_wrapper h4{
+	font-size:20px;
 	color:#ffffff;
 	text-transform:uppercase;
 	font-weight:300;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 .indx_title_left_wrapper ul{
 	display:inline-block;
