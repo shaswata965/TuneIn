@@ -10,6 +10,8 @@
     <meta content=320 name=MobileOptimized>
     <link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css rel=stylesheet crossorigin=anonymous integrity=sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC>
     <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js crossorigin=anonymous integrity=sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v11.0&appId=659390341370624&autoLogAppEvents=1" nonce="ZaiaH6an"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link href=css/animate.css rel=stylesheet>
     <link href=css/bootstrap.min.css rel=stylesheet>
     <link href=css/fonts.css rel=stylesheet>
@@ -300,8 +302,11 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="row mb-20">
-                        <div class="col-12 favourite-dash-playlist">
-                            <h3 class="mb-20"><i class="far fa-play-circle"></i> My Play List</h3>
+                        <div class="col-12 favourite-dash-playlist mb-20">
+                            <h1 class="mb-20 text-center"><i class="far fa-play-circle"></i> My Play List</h1>
+                        </div>
+                        <div class="col-12 favourite-dash-playlist mb-40">
+                            <p class="text-center playlist-desc"> All Your Play List In One Place. Paginate To Go To Next Play List </p>
                         </div>
                         <div class="col-6 favourite-dash-playlist-name">
                             <h5 class="mt-20 mb-20"><i class="far fa-play-circle"></i> Play List Name</h5>
@@ -487,13 +492,19 @@
     <!-- top songs wrapper end -->
 
     <!-- My Favourite wrapper start -->
-    <div class="album_inner_list m24_cover" id="favourite">
+    <div class="album_inner_list m24_cover pt-120" id="favourite">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="row mb-20">
-                        <div class="col-6 favourite-dash-playlist">
-                            <h3 class="mb-20"><i class="far fa-heart-circle"></i> My Favourites</h3>
+                        <div class="col-12 favourite-dash-playlist mb-20">
+                            <h1 class="mb-20 text-center"><i class="far fa-heart-circle"></i> My Favourites</h1>
+                        </div>
+                        <div class="col-12 favourite-dash-playlist mb-40">
+                            <p class="text-center playlist-desc"> All Your Favourite Songs In One Place. Paginate To Go To Next Set Of Songs </p>
+                        </div>
+                        <div class="col-6 favourite-dash-playlist-name">
+                            <h5 class="mt-20 mb-20"><i class="far fa-heart-circle"></i> Favourite Songs</h5>
                         </div>
                         <div class="col-6">
                             <div class="lang_apply_btn">
@@ -677,13 +688,11 @@
     <div class="contact_section m24_cover">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
-                    <div class="m24_heading_wrapper m24_cover text-center">
-
-                        <h1>GET IN TOUCH</h1>
-
-                        <p>Your Personal Media Website</p>
-                    </div>
+                <div class="col-12 favourite-dash-playlist mb-20">
+                    <h1 class="mb-20 text-center"><i class="far fa-envelope"></i> Get In Touch</h1>
+                </div>
+                <div class="col-12 favourite-dash-playlist mb-40">
+                    <p class="text-center playlist-desc"> Send Us Any Feedback You Have In Your Mind </p>
                 </div>
 
                 <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
@@ -1071,6 +1080,12 @@
                         <div class="m24_cover dont_have_account">
                             <p>Don’t have an acount ? <a href=#register_modal data-toggle=modal>register here</a></p>
                         </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 mt-20">
+                                <button type="button" class="btn btn-block google-btn"><i class="fab fa-google"></i>&nbsp;&nbsp; Login with Google</button>
+                                <button type="button" class="btn btn-block facebook-btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-facebook-f"></i>&nbsp;&nbsp;&nbsp; Login with Facebook</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1114,6 +1129,12 @@
                         </div>
                         <div class="m24_cover dont_have_account">
                             <p>Don’t have an acount ? <a href=#login_modal data-toggle=modal>login here</a></p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-12 mt-20">
+                                <button type="button" class="btn btn-block google-btn"><i class="fab fa-google"></i> Signup with Google</button>
+                                <button type="button" class="btn btn-block facebook-btn"><i class="fab fa-facebook-f"></i> Signup with Facebook</button>
+                            </div>
                         </div>
                     </div>
                 </div>
