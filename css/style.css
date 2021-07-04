@@ -244,7 +244,7 @@ a:hover {
     background: #e6e6e6;
 }
 .m24_logo_div{
-	float:left;
+	float:right;
 	width:auto;
 }
 .m24_navi_main_wrapper{
@@ -589,10 +589,11 @@ a:hover {
   box-shadow:0 2px 15px 0px rgba(248, 71, 62, 0.05);
 }
 #toggle{
-	float:right;
+	float:left;
 	width:auto;
 	padding-top:12px;
 	cursor:pointer;
+	margin-left: 10px;
 }
 #toggle a i:before{
 	font-weight:600;

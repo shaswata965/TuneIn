@@ -1,7 +1,4 @@
 /*NavBar Styling Start*/
-
-
-
 .index3_sidebar{
     position: fixed;
     z-index: 999;
@@ -15,10 +12,88 @@
 .navi_searchbar_wrapper{
     margin-left: 50px!important;
 }
-
 /*NavBar Styling End*/
 
 /*Landing Section Styling Start*/
+
+.treanding_album_slider {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.treanding_album_slider .owl-theme .owl-dots {
+    display: none;
+}
+.treanding_album_slider .owl-theme .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -65px;
+    margin-top: 0;
+    z-index: 1;
+    display: block;
+}
+.treanding_album_slider .owl-theme .owl-nav .owl-prev {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 21px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+.treanding_album_slider .owl-theme .owl-nav .owl-prev i:before, .treanding_album_slider .owl-theme .owl-nav .owl-next i:before{
+    font-weight:600;
+}
+.treanding_album_slider .owl-theme .owl-nav .owl-next {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 21px;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+}
+.treanding_album_slider .owl-theme .owl-nav .owl-next:hover, .treanding_album_slider .owl-theme .owl-nav .owl-prev:hover{
+    color: #fa5b41;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.top-album-slider{
+    padding-bottom: 20px!important;
+}
+
+.top-album-slider .owl-carousel a .item{
+    height: 3rem!important;
+    background-color: #fa5840;
+    position: relative;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.top-album-slider .owl-carousel a .item:hover{
+    background-color: #0f0e37;
+}
+
+.top-album-slider-main-box{
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-album-slider-main-box p{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
 
 .slider-top-margin{
     margin-top: 30px;
