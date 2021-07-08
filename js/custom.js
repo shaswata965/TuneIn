@@ -83,7 +83,7 @@
                 $(document).ready(function() {
                     $(".treanding_album_slider .owl-carousel").owlCarousel({
                         loop: !0,
-                        margin: 15,
+                        margin: 10,
                         autoplay: true,
                         autoplayTimeout: 3000,
                         autoplayHoverPause: true,
