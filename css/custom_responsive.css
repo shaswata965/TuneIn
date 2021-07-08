@@ -18,12 +18,9 @@
 
 @media only screen and (max-width: 858px) {
     .custom_albums_option_wrapper{
-        position: absolute;
-        z-index: 101;
-        left:30%;
-        border-radius: 25px;
+        top:50px;
+        left:45%;
     }
-
     .custom_albums_option_card{
         width: 60%;
     }
