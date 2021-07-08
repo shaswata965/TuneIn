@@ -13,3 +13,20 @@
 }
 
 /*NavBar Styling End*/
+
+/*Custom Album Styling Section Start*/
+
+@media only screen and (max-width: 858px) {
+    .custom_albums_option_wrapper{
+        position: absolute;
+        z-index: 101;
+        left:30%;
+        border-radius: 25px;
+    }
+
+    .custom_albums_option_card{
+        width: 60%;
+    }
+}
+
+/*Custom Album Styling Section End*/
