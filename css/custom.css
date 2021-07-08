@@ -1,3 +1,38 @@
+/*Styling For All Start*/
+
+.border-1{
+    border: 1px solid #00c792;
+    border-radius: 15px;
+}
+
+.border-2{
+    border: 1px solid #fa5b41;
+    border-radius: 15px;
+}
+
+.border-3{
+    border: 1px solid #00bfcc;
+    border-radius: 15px;
+}
+
+.bg-1{
+    background-color: #00c792;
+}
+
+.bg-2{
+    background-color: #fa5b41;
+}
+
+.bg-3{
+    background-color: #00bfcc;
+}
+
+.bg-4{
+    background-color: #0f0e37;
+}
+
+/*Styling For ALl End*/
+
 /*NavBar Styling Start*/
 .index3_sidebar{
     position: fixed;
@@ -72,14 +107,18 @@
 
 .top-album-slider .owl-carousel a .item{
     height: 3rem!important;
-    background-color: #fa5840;
+    border:1px solid #fa5b41;
     position: relative;
     border-radius: 10px;
     transition: all 0.3s ease-in-out 0s;
 }
 
 .top-album-slider .owl-carousel a .item:hover{
-    background-color: #0f0e37;
+    background-color: #fa5b41;
+}
+
+.top-album-slider .owl-carousel a .item .top-album-slider-main-box p{
+    color:#ffffff;
 }
 
 .top-album-slider-main-box{
@@ -100,6 +139,80 @@
 }
 
 /*Landing Section Styling End*/
+
+/*Custom Styling Start*/
+
+.custom_albums_wrapper{
+    background-color: #04031d;
+    color: #ffffff;
+}
+
+.custom_albums_card{
+    padding:0!important;
+}
+
+.custom_albums_wrapper .custom_albums_card .custom_albums_heading{
+    padding: 10px 0;
+    font-size: 20px;
+    color:#ffffff;
+    border-radius: 15px;
+}
+
+.custom_albums_card div div a{
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+}
+
+.custom_albums_wrapper div div h1{
+    color:#ffffff;
+}
+
+.custom_album_btn:active,.custom_album_btn:focus{
+box-shadow: none;
+}
+.custom_album_btn i{
+    color: #FFFFFF;
+}
+
+.custom_album_song_name{
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+.custom_album_song_row{
+    position: relative;
+    border-radius: 5px;
+}
+
+.custom_albums_option_wrapper{
+    position: absolute;
+    z-index: 101;
+    left: 90%;
+    border-radius: 25px;
+}
+
+.custom_albums_option_wrapper .collapse .card a{
+    display: block!important;
+    color: black;
+    font-size: 14px;
+    transition: 0.3s ease-in-out 0s;
+}
+
+.custom_albums_option_wrapper .collapse .card a span i{
+    color: #fa5b41;
+}
+
+.custom_albums_option_wrapper .collapse .card a:hover{
+    color: #fa5b41;
+}
+
+.custom_albums_option_card{
+    padding: 10px 5px!important;
+}
+
+/*Custom Styling End*/
 
 /*Contact Section Styling Start*/
 
