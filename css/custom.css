@@ -248,27 +248,42 @@ box-shadow: none;
 
 .user-card{
     border-color: #fa5b41;
-    box-shadow: 0 0 7px 3px #fa5b41;
+    box-shadow: 0 0 3px 1px #fa5b41;
 }
 
-
 .user-dash-image img{
-    height:175px;
-    width: 175px;
-    border: 1px solid #fa5b41;
+    margin-left: 38%;
+    height:250px;
+    width: 250px;
+    border: 2px solid #fa5b41;
     border-radius: 10px;
 }
 
-.user-dash-description p span{
-    display: inline-block;
-    width: 8rem;
-    color: #fa5b41;
+.user-dash-image h2{
+    color:#ffffff;
 }
 
-.user-dash-description p{
-    padding: 7px;
-    font-size: 14px;
-    color: #797979;
+.user-dash-image h2 span{
+    color: #ff7e00;
+}
+
+.user-dash-description .row div h4{
+    color:#ffffff;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.user-dash-description .row div h4::before{
+    position: absolute;
+    content: "";
+    top:37%;
+    text-align: center;
+    width: 60%;
+    height: 2px;
+    background-color: #ff7e00;
+}
+
+.user-dash-description .row div h5{
+    color:#ff7e00;
 }
 
 .album_inner_list, .album_list_wrapper{
@@ -299,7 +314,6 @@ box-shadow: none;
     width: 22%;
     height: 2px;
     top:140%;
-    left:40%;
 }
 
 .favourite-dash-playlist .playlist-desc{
