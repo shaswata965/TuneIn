@@ -291,6 +291,11 @@ box-shadow: none;
     color: #FFFFFF;
 }
 
+.favourite_play_list, .favourite_play_wrapper{
+    background-color: #0f0e37;
+    color: #ffffff;
+}
+
 .album_list_name li{
     color: #FFFFFF!important;
 }
