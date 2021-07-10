@@ -138,6 +138,16 @@
     margin-top: 30px;
 }
 
+.release_tabs_wrapper .nav li .nav-link{
+    color:#ffffff;
+}
+
+.relaese_viewall_wrapper a,.relaese_viewall_wrapper a i{
+    color:#ffffff;
+}
+.treanding_song_slider{
+    border-bottom:none!important;
+}
 /*Landing Section Styling End*/
 
 /*Custom Styling Start*/
@@ -167,6 +177,10 @@
 
 .custom_albums_wrapper div div h1{
     color:#ffffff;
+}
+
+.custom_album_btn{
+    width:100%;
 }
 
 .custom_album_btn:active,.custom_album_btn:focus{
@@ -337,13 +351,19 @@ box-shadow: none;
     transition: all 0.3s ease-in-out 0s;
 }
 
-.google-btn:hover{
+.google-btn:hover, .twitter-btn:hover{
     opacity: 0.7;
     color: #FFFFFF;
 }
 
-.google-btn:active, .google-btn:focus, .facebook-btn:active, .facebook-btn:focus{
+.google-btn:active, .google-btn:focus, .facebook-btn:active, .facebook-btn:focus, .twitter-btn:active, .twitter-btn:focus{
     box-shadow: none;
+}
+
+.twitter-btn{
+    background-color: #1DA1F2;
+    color:white;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 .facebook-btn
@@ -358,7 +378,53 @@ box-shadow: none;
     color: #FFFFFF;
 }
 
+.vl{
+    margin-top: 70%;
+    height:55%;
+    border-left: 2px solid #FFFFFF;
+    position: absolute;
+    left: 80%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl-text{
+    position: absolute;
+    top:35%;
+    left: -1.65rem;
+    padding: .85rem 1rem .8rem 1rem;
+    background-color: #FFFFFF;
+    color:#333333;
+    border-radius: 50%;
+}
+
+.vl-register{
+    margin-top: 70%;
+    height:55%;
+    border-left: 2px solid #FFFFFF;
+    position: absolute;
+    left: 80%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vl-register-text{
+    position: absolute;
+    top:35%;
+    left: -1.65rem;
+    padding: .85rem 1rem .8rem 1rem;
+    background-color: #FFFFFF;
+    color:#333333;
+    border-radius: 50%;
+}
+
+.register-btn{
+    padding-top: 80px!important;
+}
+
 /*Login Modal Styling End*/
+
+
 
 /*Footer Section Start*/
 

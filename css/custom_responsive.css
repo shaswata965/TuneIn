@@ -27,3 +27,74 @@
 }
 
 /*Custom Album Styling Section End*/
+
+/*Custom Login Modal Styling Start*/
+
+@media only screen and (max-width: 992px) {
+    .vl{
+        margin-top: 0;
+        height: 100%;
+        border-left: none;
+        position: relative;
+        left: 0;
+        margin-left: -3px;
+        top: 0;
+        padding-bottom: 3rem;
+    }
+    .vl::before{
+        position: absolute;
+        width: 80%;
+        height: 1rem;
+        left: 10%;
+        top:15%;
+        content: "";
+        border-bottom:2px solid #FFFFFF;
+    }
+
+    .vl-text{
+        position: absolute;
+        left: 45%;
+        padding: .85rem 1rem .8rem 1rem;
+        background-color: #FFFFFF;
+        color:#333333;
+        border-radius: 50%;
+        top:0;
+    }
+
+    .vl-register{
+        margin-top: 0;
+        height: 100%;
+        border-left: none;
+        position: relative;
+        left: 0;
+        margin-left: -3px;
+        top: 0;
+        padding-bottom: 3rem;
+    }
+    .vl-register::before{
+        position: absolute;
+        width: 80%;
+        height: 1rem;
+        left: 10%;
+        top:15%;
+        content: "";
+        border-bottom:2px solid #FFFFFF;
+    }
+
+    .vl-register-text{
+        position: absolute;
+        left: 45%;
+        padding: .85rem 1rem .8rem 1rem;
+        background-color: #FFFFFF;
+        color:#333333;
+        border-radius: 50%;
+        top:0;
+    }
+
+    .register-btn{
+        padding-top: 0!important;
+    }
+
+}
+
+/*Custom Login Modal Styling End*/
