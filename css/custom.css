@@ -62,14 +62,13 @@
 .treanding_album_slider .owl-theme .owl-nav {
     position: absolute;
     right: 0;
-    top: -65px;
-    margin-top: 0;
+    margin-top: 10px;
     z-index: 1;
     display: block;
 }
 .treanding_album_slider .owl-theme .owl-nav .owl-prev {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 25px;
     margin: 0;
     width: 30px;
     height: 30px;
@@ -83,7 +82,7 @@
 }
 .treanding_album_slider .owl-theme .owl-nav .owl-next {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 25px;
     margin: 0;
     width: 30px;
     height: 30px;
