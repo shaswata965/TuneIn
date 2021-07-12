@@ -142,7 +142,7 @@
 }
 
 .relaese_viewall_wrapper a,.relaese_viewall_wrapper a i{
-    color:#ffffff;
+    color:#ff7e00!important;
 }
 .treanding_song_slider{
     border-bottom:none!important;
@@ -252,7 +252,7 @@ box-shadow: none;
 }
 
 .user-dash-image img{
-    margin-left: 38%;
+    margin-left: 36%;
     height:250px;
     width: 250px;
     border: 2px solid #fa5b41;

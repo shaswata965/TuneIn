@@ -1173,7 +1173,7 @@ span.comboTreeItemTitle{
     transition: all .2s ease-in-out;
 }
 .lang_apply_btn_wrapper{
-	padding:40px 10px 40px 10px;
+	padding:40px 30px 40px 30px;
 	text-align:center;
 }
 .budge_noti{
@@ -1825,7 +1825,7 @@ ul.tranding_more_option li a .opt_icon i:before{
 .relaese_viewall_wrapper{
 	float:right;
 	display:inline-block;
-	padding:0 0 0 15px;
+	padding:3px 0 0 15px;
 }
 .relaese_viewall_wrapper a{
 	font-weight:600;
@@ -1836,7 +1836,7 @@ ul.tranding_more_option li a .opt_icon i:before{
 .relaese_viewall_wrapper a i:before{
 	font-size:15px;
 	margin-left:2px;
-	color:#fa5840;
+	color:#ff7e00;
 }
 .relaese_viewall_wrapper a:hover{
 	color:#fa5840;
