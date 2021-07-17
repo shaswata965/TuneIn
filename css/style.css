@@ -438,7 +438,7 @@ a:hover {
 }
 .m24_header_right_Wrapper{
 	float: right;
-    width: 15%;
+    width: 8%!important;
     padding-top: 16px;
     position: relative;
 }
@@ -537,7 +537,6 @@ a:hover {
 }
 .crm_message_dropbox_wrapper ul li:first-child{
 	border-bottom:1px solid #e6e6e6;
-	padding-left:15px;
 	height:50px;
 	line-height:50px;
 }
@@ -566,7 +565,7 @@ a:hover {
 	background:#f9f9f9 !important;
 }
 .crm_message_dropbox_wrapper .nice-select .option{
-	float:left;
+	float:right;
 	width:100%;
 }
 .crm_message_dropbox_wrapper .nice-select .option:last-child{
@@ -1199,7 +1198,7 @@ span.comboTreeItemTitle{
     bottom: 12px;
 }
 .m24_signin_wrapper{
-	float:right;
+	float:left;
 	display:inline-block;
 }
 .m24_signin_wrapper a img {

@@ -360,6 +360,135 @@ box-shadow: none;
 
 /*User Dashboard Styling End*/
 
+/*Featured Albums Styling Start*/
+
+.featured_album_header{
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.featured_album_header::before{
+    position: absolute;
+    content:"";
+    background-color: #fa5b41;
+    width:20%;
+    height: 1px;
+    bottom: 0;
+    left:40%;
+}
+
+.featured_albums_wrapper{
+    background-color: #04031d;
+}
+
+.music_navigation_wrapper .navigation_title{
+    background-color: #0f0e37;
+    color: #FFFFFF!important;
+    position: relative;
+    padding: 10px 0 10px 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.navigation_title::before{
+    content: "";
+    background-color: #fa5b41;
+    width: 100%;
+    height: 2px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.album_name{
+    padding: 10px 0 10px 10px;
+    background-color: #0f0e37;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    display: block;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.album_name:hover{
+    color: #fa5b41;
+}
+
+.active_album_name{
+    color:#fa5b41;
+}
+
+.featured_album_letter_filter p{
+    padding: 20px;
+    background-color: #00c792;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.featured_album_letter_filter p  span{
+    color: #fa5b41;
+}
+
+.alphabet_list{
+    background-color: #0f0e37;
+    border-radius: 7px;
+}
+
+.alphabet_list a{
+    padding: 10px 30px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 15px;
+    background-color: #00bfcc;
+    color:#ffffff!important;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.alphabet_list a:hover{
+    color: #fa5b41!important;
+}
+
+.featured_album_year_filter p{
+    padding: 20px;
+    background-color:  #00bfcc;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.featured_album_year_filter p  span{
+    color: #fa5b41;
+}
+
+.year_list{
+    background-color: #0f0e37;
+    border-radius: 7px;
+}
+
+.year_list a{
+    padding: 10px 30px;
+    margin: 10px;
+    display: inline-block;
+    font-size: 15px;
+    background-color: #00c792;
+    color:#ffffff!important;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.year_list a:hover{
+    color: #fa5b41!important;
+}
+
+/*Featured Albums Styling End*/
+
 /*Login Modal Styling Start*/
 
 .google-btn
@@ -442,7 +571,70 @@ box-shadow: none;
 
 /*Login Modal Styling End*/
 
+/*Filter Page Styling Start*/
 
+.filter_album_result{
+background-color: #04031d;
+}
+
+.filter_album_heading{
+    padding: 20px 0;
+    color: #FFFFFF;
+    background-color: #00c792;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.filter_album_heading span{
+    color: #fa5b41;
+}
+
+.filter_albums_list{
+    background-color: #0f0e37;
+    width:98%;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.first_row_result, .second_row_result, .third_row_result{
+    background-color: #04031d;
+}
+
+.first_row_result .filter_albums, .second_row_result .filter_albums, .third_row_result .filter_albums{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #0f0e37;
+    color: #ffffff;
+    display: block;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.first_row_result .filter_albums:hover, .second_row_result .filter_albums:hover, .third_row_result .filter_albums:hover{
+    color: #fa5b41;
+}
+.first_row_result p{
+    background-color: #fa5b41;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding:  10px 0!important;
+    border-radius: 7px;
+}
+
+.second_row_result p{
+    background-color: #00c792;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding:  10px 0!important;
+    border-radius: 7px;
+}
+
+.third_row_result p{
+    background-color: #1DA1F2;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding:  10px 0!important;
+    border-radius: 7px;
+}
 
 /*Footer Section Start*/
 
