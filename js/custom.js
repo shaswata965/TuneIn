@@ -8,11 +8,6 @@
     "use strict";
     var tpj = jQuery,
         revapi24;
-		
-		// Preloader //
-    jQuery(window).on("load", function() {
-            jQuery("#status").fadeOut(), jQuery("#preloader").delay(350).fadeOut("slow")
-        }),
 
  /*--- Responsive Menu Start ----*/		
 		$("#toggle").on("click", function() {
@@ -39,7 +34,19 @@
         }(jQuery), $("#toggle").on("click", function() {
             this.classList.toggle("change"), $(".ss_menu").slideToggle()
         }), 
-		
+
+            // Year Slider Js
+
+            $("#previous").on("click",function(){
+               $("#firstYears").toggleClass("visible");
+               $("#secondYears").toggleClass("invisible");
+            }),
+
+            $("#next").on("click",function(){
+                $("#secondYears").toggleClass("invisible");
+                $("#firstYears").toggleClass("visible");
+            }),
+
 		// Main Slider Animation //
 		jQuery(document).ready(function($) {
             ! function(e) {
