@@ -31,6 +31,12 @@
     background-color: #0f0e37;
 }
 
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
+}
 /*Styling For ALl End*/
 
 /*NavBar Styling Start*/
@@ -365,7 +371,7 @@ box-shadow: none;
 .featured_album_header{
     color: white;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .featured_album_header::before{
@@ -375,7 +381,7 @@ box-shadow: none;
     width:20%;
     height: 1px;
     bottom: 0;
-    left:40%;
+    left:0;
 }
 
 .featured_albums_wrapper{
@@ -427,6 +433,7 @@ box-shadow: none;
     color: #ffffff;
     font-size: 20px;
     border-radius: 7px;
+    font-family: 'Oswald',sans-serif;
 }
 
 .featured_album_letter_filter p  span{
@@ -439,7 +446,7 @@ box-shadow: none;
 }
 
 .alphabet_list a{
-    padding: 10px 30px;
+    padding: 10px 13px;
     margin: 10px;
     display: inline-block;
     font-size: 15px;
@@ -460,20 +467,24 @@ box-shadow: none;
     color: #ffffff;
     font-size: 20px;
     border-radius: 7px;
+    font-family:'Oswald',sans-serif;
 }
 
 .featured_album_year_filter p  span{
     color: #fa5b41;
 }
-
+.featured-col-9{
+    position: relative;
+}
 .year_list{
     background-color: #0f0e37;
     border-radius: 7px;
+    position: absolute;
 }
 
 .year_list a{
-    padding: 10px 30px;
-    margin: 10px;
+    padding: 10px 40px;
+    margin: 12px;
     display: inline-block;
     font-size: 15px;
     background-color: #00c792;
@@ -485,6 +496,44 @@ box-shadow: none;
 
 .year_list a:hover{
     color: #fa5b41!important;
+}
+
+.year_list-navigation{
+    margin-left: 88%;
+    position: absolute;
+    bottom: 20px;
+}
+
+.year_list-navigation a{
+    margin: 10px;
+}
+
+.year_list-navigation button{
+    background-color: #04031d;
+}
+
+.year_list-navigation button i{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.year_list-navigation button:hover,.year_list-navigation button:active,.year_list-navigation button:focus{
+    box-shadow: none;
+}
+
+.filtered-album-result h1{
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.filtered-album-result h1::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 70%;
+    background-color: #fa5b41;
+    bottom: 0;
+    left: 0;
 }
 
 /*Featured Albums Styling End*/

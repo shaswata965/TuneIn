@@ -14,6 +14,52 @@
 
 /*NavBar Styling End*/
 
+/*Albums Page Styling Start*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .custom_album_bottom_banner{
+        padding-top: 90px;
+    }
+    .year_list-navigation{
+        margin-left: 85%;
+        position: absolute;
+        bottom: -100px;
+    }
+}
+
+@media only screen and (min-width: 776px) and (max-width: 991px){
+    .custom_album_bottom_banner{
+        padding-top: 300px;
+    }
+    .year_list-navigation{
+        margin-left: 75%;
+        position: absolute;
+        bottom: -310px;
+    }
+}
+@media only screen and (min-width: 430px) and (max-width: 775px){
+    .custom_album_bottom_banner{
+        padding-top: 630px;
+    }
+    .year_list-navigation{
+        margin-left: 75%;
+        position: absolute;
+        bottom: -630px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 429px){
+    .custom_album_bottom_banner{
+        padding-top: 900px;
+    }
+    .year_list-navigation{
+        margin-left: 65%;
+        position: absolute;
+        bottom: -920px;
+    }
+}
+
+/*Albums Page Styling End*/
+
 /*Custom Album Styling Section Start*/
 
 @media only screen and (max-width: 858px) {
@@ -108,3 +154,4 @@
 }
 
 /*Custom Login Modal Styling End*/
+
