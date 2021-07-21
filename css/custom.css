@@ -533,6 +533,15 @@ box-shadow: none;
 
 /*Featured Albums Styling End*/
 
+
+/*Filter Page Styling Start*/
+.release_box_main_content ul.icon-option-wrapper.tranding_open_option{
+    top:40px;
+    right: 5px;
+}
+
+/*Filter Page Styling End*/
+
 /*Login Modal Styling Start*/
 
 .google-btn
