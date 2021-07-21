@@ -29,32 +29,58 @@
 
 @media only screen and (min-width: 776px) and (max-width: 991px){
     .custom_album_bottom_banner{
-        padding-top: 300px;
+        padding-top: 150px;
+    }
+    .year_list-navigation{
+        margin-left: 75%;
+        position: absolute;
+        bottom: -160px;
+    }
+    .year_list a{
+        padding: 10px 20px;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 490px) and (max-width: 775px){
+    .custom_album_bottom_banner{
+        padding-top: 350px;
+    }
+    .year_list-navigation{
+        margin-left: 75%;
+        position: absolute;
+        bottom: -350px;
+    }
+    .year_list a{
+        padding: 10px 20px;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 396px) and (max-width: 490px){
+    .custom_album_bottom_banner{
+        padding-top: 310px;
     }
     .year_list-navigation{
         margin-left: 75%;
         position: absolute;
         bottom: -310px;
     }
-}
-@media only screen and (min-width: 430px) and (max-width: 775px){
-    .custom_album_bottom_banner{
-        padding-top: 630px;
-    }
-    .year_list-navigation{
-        margin-left: 75%;
-        position: absolute;
-        bottom: -630px;
+    .year_list a{
+        padding: 10px 15px;
+        margin: 8px;
     }
 }
-@media only screen and (min-width: 280px) and (max-width: 429px){
+@media only screen and (min-width: 280px) and (max-width: 396px){
     .custom_album_bottom_banner{
-        padding-top: 900px;
+        padding-top: 330px;
     }
     .year_list-navigation{
         margin-left: 65%;
         position: absolute;
-        bottom: -920px;
+        bottom: -350px;
+    }
+    .year_list a{
+        padding: 10px 12px;
+        margin: 6px;
     }
 }
 

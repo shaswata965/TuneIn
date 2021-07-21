@@ -441,12 +441,14 @@ box-shadow: none;
 }
 
 .alphabet_list{
-    background-color: #0f0e37;
     border-radius: 7px;
 }
 
 .alphabet_list a{
-    padding: 10px 13px;
+    height: 2.7rem;
+    width: 2.7rem;
+    padding-top: .6rem;
+    text-align: center;
     margin: 10px;
     display: inline-block;
     font-size: 15px;
@@ -477,14 +479,16 @@ box-shadow: none;
     position: relative;
 }
 .year_list{
-    background-color: #0f0e37;
     border-radius: 7px;
     position: absolute;
 }
 
 .year_list a{
-    padding: 10px 40px;
-    margin: 12px;
+    height: 3rem;
+    width: 5rem;
+    text-align: center;
+    padding-top: .8rem;
+    margin: 9px;
     display: inline-block;
     font-size: 15px;
     background-color: #00c792;
@@ -499,9 +503,9 @@ box-shadow: none;
 }
 
 .year_list-navigation{
-    margin-left: 88%;
+    margin-left: 85%;
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
 }
 
 .year_list-navigation a{
@@ -510,30 +514,21 @@ box-shadow: none;
 
 .year_list-navigation button{
     background-color: #04031d;
+
 }
 
 .year_list-navigation button i{
     color: #ffffff;
     font-size: 1.2rem;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.year_list-navigation button i:hover{
+    color: #fa5b41;
 }
 
 .year_list-navigation button:hover,.year_list-navigation button:active,.year_list-navigation button:focus{
     box-shadow: none;
-}
-
-.filtered-album-result h1{
-    position: relative;
-    padding-bottom: 10px;
-}
-
-.filtered-album-result h1::before{
-    position: absolute;
-    content: "";
-    height: 1px;
-    width: 70%;
-    background-color: #fa5b41;
-    bottom: 0;
-    left: 0;
 }
 
 /*Featured Albums Styling End*/
