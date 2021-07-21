@@ -485,10 +485,10 @@ box-shadow: none;
 
 .year_list a{
     height: 3rem;
-    width: 5rem;
+    width: 6rem;
     text-align: center;
     padding-top: .8rem;
-    margin: 9px;
+    margin: 10px;
     display: inline-block;
     font-size: 15px;
     background-color: #00c792;
@@ -505,7 +505,7 @@ box-shadow: none;
 .year_list-navigation{
     margin-left: 85%;
     position: absolute;
-    bottom: 25px;
+    bottom: 45px;
 }
 
 .year_list-navigation a{

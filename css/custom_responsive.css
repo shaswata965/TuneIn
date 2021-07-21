@@ -17,70 +17,91 @@
 /*Albums Page Styling Start*/
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
-    .custom_album_bottom_banner{
-        padding-top: 90px;
-    }
     .year_list-navigation{
         margin-left: 85%;
         position: absolute;
-        bottom: -100px;
+        bottom: 0;
     }
 }
 
 @media only screen and (min-width: 776px) and (max-width: 991px){
     .custom_album_bottom_banner{
-        padding-top: 150px;
+        padding-top: 40px;
     }
     .year_list-navigation{
         margin-left: 75%;
         position: absolute;
-        bottom: -160px;
+        bottom: -50px;
     }
     .year_list a{
-        padding: 10px 20px;
-        margin: 10px;
+        height: 2.5rem;
+        width: 5rem;
+        padding-top: .6rem;
+        margin: 8px;
     }
 }
 @media only screen and (min-width: 490px) and (max-width: 775px){
     .custom_album_bottom_banner{
-        padding-top: 350px;
+        padding-top: 300px;
     }
     .year_list-navigation{
         margin-left: 75%;
         position: absolute;
-        bottom: -350px;
+        bottom: -300px;
     }
     .year_list a{
-        padding: 10px 20px;
-        margin: 10px;
+        height: 2.5rem;
+        width: 5rem;
+        padding-top: .6rem;
+        margin: 8px;
     }
 }
 @media only screen and (min-width: 396px) and (max-width: 490px){
     .custom_album_bottom_banner{
-        padding-top: 310px;
+        padding-top: 380px;
     }
     .year_list-navigation{
-        margin-left: 75%;
+        margin-left: 70%;
         position: absolute;
-        bottom: -310px;
+        bottom: -390px;
     }
     .year_list a{
-        padding: 10px 15px;
+        height: 2.5rem;
+        width: 5rem;
+        padding-top: .6rem;
         margin: 8px;
     }
 }
-@media only screen and (min-width: 280px) and (max-width: 396px){
+@media only screen and (min-width: 320px) and (max-width: 396px){
     .custom_album_bottom_banner{
-        padding-top: 330px;
+        padding-top: 300px;
     }
     .year_list-navigation{
         margin-left: 65%;
         position: absolute;
-        bottom: -350px;
+        bottom: -300px;
     }
     .year_list a{
-        padding: 10px 12px;
+        height: 2rem;
+        width: 4rem;
+        padding-top: .3rem;
         margin: 6px;
+    }
+}
+@media only screen and (min-width: 250px) and (max-width: 320px){
+    .custom_album_bottom_banner{
+        padding-top: 300px;
+    }
+    .year_list-navigation{
+        margin-left: 65%;
+        position: absolute;
+        bottom: -300px;
+    }
+    .year_list a{
+        height: 2rem;
+        width: 4rem;
+        padding-top: .2rem;
+        margin: 4px;
     }
 }
 
