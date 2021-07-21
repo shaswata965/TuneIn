@@ -1894,7 +1894,7 @@ ul.tranding_more_option li a .opt_icon i:before{
 	right:45px;
 }
 .release_box_main_content:hover .release_content_artist{
-	bottom:120px;
+	bottom:80px;
 	z-index:1;
 	background:transparent;
 	-webkit-transition: all 0.3s ease 0s;
