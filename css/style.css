@@ -445,7 +445,7 @@ a:hover {
 .m24_header_right_Wrapper:after{
 	content: '';
     position: absolute;
-    left:30px;
+    left:42px;
     top: -6px;
     width: 1px;
     height: 83px;
