@@ -153,10 +153,10 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="indx_title_left_wrapper m24_cover">
-                        <h4>User Dashboard</h4>
+                        <h4>Single Album</h4>
                         <ul>
-                            <li><a href="#">Home</a> &nbsp;&nbsp;&nbsp;/</li>
-                            <li>User Dashboard</li>
+                            <li><a href="#">Albums</a> &nbsp;&nbsp;&nbsp;/</li>
+                            <li>Single Album</li>
                         </ul>
                     </div>
                 </div>
@@ -168,37 +168,36 @@
     <div class="artist_wrapper m24_cover">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-10 user-dash-name">
-                  <div class="card user-card">
-                      <div class="card-body user-card-body">
-                        <div class="row justify-content-center">
-                            <div class="col-12 user-dash-image mt-10">
-                                <img src="images/rel2.png" class="img-fluid">
-                                <h2 class="text-center pt-20 pb-40">Welcome <span>User</span></h2>
-                            </div>
-                            <div class="col-12 user-dash-description">
-                                <div class="row mb-40">
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-10">
-                                        <h4 class="text-center"><i class="far fa-id-card"></i> Email Address</h4>
-                                        <h5 class="text-center pt-40">Dummy@email.com</h5>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-10">
-                                        <h4 class="text-center"><i class="far fa-play-circle"></i> Play Lists </h4>
-                                        <h5 class="text-center pt-40">4</h5>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-10">
-                                        <h4 class="text-center"><i class="far fa-calendar-alt"></i> Member Since </h4>
-                                        <h5 class="text-center pt-40">30th June 2021</h5>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-10">
-                                        <h4 class="text-center"><i class="far fa-heart-circle"></i> Favourite Songs </h4>
-                                        <h5 class="text-center pt-40">35</h5>
-                                    </div>
+                <div class="col-12 user-dash-name">
+                    <div class="card user-card">
+                        <div class="card-body user-card-body album-card-body">
+                            <h5 class="text-center"><i class="fas fa-play-circle"></i>&nbsp;&nbsp; Play/Download <span>Name</span></h5>
+                            <div class="row justify-content-center">
+                                <div class="col-md-3 album-dash-image">
+                                    <img src="images/rel2.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-9 album-dash-heading mt-10">
+                                    <h6 class="pt-10">Description</h6>
+                                    <p class="pt-10">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi consequuntur cum dolore dolorum eaque eius,
+                                        est, eveniet ex expedita fugit harum in modi neque numquam omnis quas quibusdam repudiandae.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aspernatur consequuntur delectus dolor dolorum enim et
+                                        expedita minima neque nobis pariatur quae, quaerat quam quia, repellat sint suscipit vel vero?
+                                    </p>
+                                    <p class="description-span pt-1 pb-1"><span>Music Composer </span>:&nbsp;&nbsp; Someone, Someone</p>
+                                    <p class="description-span pt-1 pb-1"><span>Lyricists </span>:&nbsp;&nbsp; Someone</p>
+                                    <p class="description-span pt-1 pb-1"><span>Released On </span>:&nbsp;&nbsp; 19th July</p>
+                                </div>
+                                <div class="md-12 pt-10 album-dash-options">
+                                    <p class="text-center">
+                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-share-alt"></i>&nbsp;&nbsp; Share</a></span>
+                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-layer-plus"></i>&nbsp;&nbsp; Add To Playlist</a></span>
+                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-list"></i>&nbsp;&nbsp; Add To Queue</a></span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -206,164 +205,136 @@
     <!-- artist single wrapper end -->
 
     <!--My Play List wrapper start -->
-    <div class="album_inner_list m24_cover pb-60" id="playlist">
+    <div class="album_inner_list m24_cover pb-30" id="playlist">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="row mb-20">
-                        <div class="col-12 favourite-dash-playlist mb-20">
-                            <h1 class="mb-20 text-left"><i class="far fa-play-circle"></i> My Play List</h1>
-                        </div>
-                        <div class="col-6 favourite-dash-playlist-name">
-                            <h5 class="mt-20 mb-20"><i class="far fa-play-circle"></i> Play List Name</h5>
+                        <div class="col-6 album-details-playlist-heading">
+                            <h3 class="mt-20 mb-20"><i class="far fa-play-circle"></i> Album Name</h3>
                         </div>
                         <div class="col-6">
-                            <div class="lang_apply_btn">
+                            <div class="lang_apply_btn mt-20">
                                 <a href="#"><i class="flaticon-play-button"></i> play all</a>
                             </div>
                         </div>
                     </div>
                     <div class="album_list_wrapper2">
-                        <div class="album_list_wrapper">
+                        <div class="album_list_wrapper album_list_wrapper3">
                             <ul class="album_list_name m24_cover">
-                                <li>#</li>
-                                <li class="song_title_width">Album Title</li>
-                                <li class="song_title_width">Artist</li>
-                                <li class="text-center">Songs</li>
-                                <li class="text-center">More</li>
+                                <li class="album-song-number">#</li>
+                                <li class="song_title_width album-detail-title">Song Title</li>
+                                <li class="text-center album-actions-title">Action</li>
+                                <li class="text-center add-playlist-title">Add To Playlist</li>
+                                <li class="download-option-title">Download Options</li>
                             </ul>
                             <ul class="album_inner_list_padding">
-                                <li><a href="single_album.html"><span class="play_no">01</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
+                                <li class="album-song-number"><a href="#"><span class="play_no">01</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                <li class="song_title_width album-detail-li">
                                     <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp1.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="single_album.html">Let me Love You</a></h1>
+                                        <div class="top_song_artist_contnt album-song-title">
+                                            <h1><a href="#">Let me Love You</a></h1>
                                             <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
                                         </div>
 
                                     </div>
                                 </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">23</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>Delete playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                    </ul>
+                                <li class="song_title_width album-action-options text-center">
+                                    <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
+                                </li>
+                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                        <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
+                                        <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
-                                <li><a href="single_album.html"><span class="play_no">02</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
+                                <li class="album-song-number"><a href="#"><span class="play_no">02</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                <li class="song_title_width album-detail-li">
                                     <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp2.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="single_album.html">l wanna you</a></h1>
+                                        <div class="top_song_artist_contnt album-song-title">
+                                            <h1><a href="#">l wanna you</a></h1>
                                             <p class="various_artist_text"><a href="#">Chrissy artist</a></p>
                                         </div>
 
                                     </div>
                                 </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">30</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>Delete playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                    </ul>
+                                <li class="song_title_width album-action-options text-center">
+                                    <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
+                                </li>
+                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
-                                <li><a href="single_album.html"><span class="play_no">03</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
+                                <li class="album-song-number"><a href="#"><span class="play_no">03</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                <li class="song_title_width album-detail-li">
                                     <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp3.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="single_album.html">Let me Love You</a></h1>
+                                        <div class="top_song_artist_contnt album-song-title">
+                                            <h1><a href="#">Let me Love You</a></h1>
                                             <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
                                         </div>
 
                                     </div>
                                 </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">50</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>Delete playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                    </ul>
+                                <li class="song_title_width album-action-options text-center">
+                                    <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
+                                </li>
+                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
-                                <li><a href="single_album.html"><span class="play_no">04</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
+                                <li class="album-song-number"><a href="#"><span class="play_no">04</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                <li class="song_title_width album-detail-li">
                                     <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp4.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="single_album.html">Let me Love You</a></h1>
+                                        <div class="top_song_artist_contnt album-song-title">
+                                            <h1><a href="#">Let me Love You</a></h1>
                                             <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
                                         </div>
 
                                     </div>
                                 </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">12</a></li>
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>Delete playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                    </ul>
+                                <li class="song_title_width album-action-options text-center">
+                                    <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
+                                </li>
+                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
-                                <li><a href="single_album.html"><span class="play_no">05</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
+                                <li class="album-song-number"><a href="#"><span class="play_no">05</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
+                                <li class="song_title_width album-detail-li">
                                     <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp5.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="single_album.html">Let me Love You</a></h1>
+                                        <div class="top_song_artist_contnt album-song-title">
+                                            <h1><a href="#">Let me Love You</a></h1>
                                             <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
                                         </div>
-
                                     </div>
                                 </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">46</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>Delete playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                    </ul>
+                                <li class="song_title_width album-action-options text-center">
+                                    <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                    <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
+                                </li>
+                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
+                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
                                 </li>
                             </ul>
                         </div>
@@ -379,187 +350,350 @@
             <li><a class="page-link" href="#"><i class="fal fa-angle-right"></i></a></li>
         </ul>
     </div>
-    <!-- top songs wrapper end -->
 
-    <!-- My Favourite wrapper start -->
-    <div class="album_inner_list favourite_play_list m24_cover pt-60 pb-60" id="favourite">
+    <!--Album Download Wrapper Start-->
+    <div class="album_download_all m24_cover pb-30">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-12">
-                    <div class="row mb-20">
-                        <div class="col-12 favourite-dash-playlist mb-20">
-                            <h1 class="mb-20 text-left"><i class="far fa-heart-circle"></i> My Favourites</h1>
-                        </div>
-                        <div class="col-6 favourite-dash-playlist-name">
-                            <h5 class="mt-20 mb-20"><i class="far fa-heart-circle"></i> Favourite Songs</h5>
-                        </div>
-                        <div class="col-6">
-                            <div class="lang_apply_btn">
-                                <a href="#"><i class="flaticon-play-button"></i> play all</a>
+            <div class="album_download_wrapper">
+                <h4 class="album_download_title"><i class="fas fa-download"></i> Download All One <span>Zip</span></h4>
+                <button class="btn btn-inverse-success mt-20"><i class="fas fa-download"></i> 128 Kbps Zip</button>
+                <button class="btn btn-inverse-success mt-20 ml-20"><i class="fas fa-download"></i> 326 Kbps Zip</button>
+                <button class="btn btn-inverse-success mt-20 ml-20"><i class="fas fa-download"></i> Flac Format Available (<1000Kbps)</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Related Album Wrapper Start-->
+    <div class="related_album_section m24_cover pb-30">
+        <div class="container">
+            <div class="related_album_wrapper">
+                <h4 class="related_album_title mb-40"><i class="fas fa-play-circle"></i> You May Also Like</h4>
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class=tab-content>
+                        <div class="tab-pane active" id=home>
+                            <div class=row>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Jabariya Jodi</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel1.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Dilla Ther Jaa</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel2.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Ik Vaari Aa jaa</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel3.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Sadda Move song</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="album_list_wrapper2">
-                        <div class="album_list_wrapper favourite_play_wrapper">
-                            <ul class="album_list_name m24_cover">
-                                <li>#</li>
-                                <li class="song_title_width">Song Title</li>
-                                <li class="song_title_width">Artist</li>
-                                <li class="text-center">time</li>
-                                <li class="text-center">More</li>
-                            </ul>
-                            <ul class="album_inner_list_padding">
-                                <li><a href="#"><span class="play_no">01</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
-                                    <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp1.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="#">Let me Love You</a></h1>
-                                            <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">3:26</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>Add To playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>delete</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="album_inner_list_padding">
-                                <li><a href="#"><span class="play_no">02</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
-                                    <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp2.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="#">l wanna you</a></h1>
-                                            <p class="various_artist_text"><a href="#">Chrissy artist</a></p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">3:26</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>Add To playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>delete</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="album_inner_list_padding">
-                                <li><a href="#"><span class="play_no">03</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
-                                    <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp3.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="#">Let me Love You</a></h1>
-                                            <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">3:26</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>Add To playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>delete</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="album_inner_list_padding">
-                                <li><a href="#"><span class="play_no">04</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
-                                    <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp4.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="#">Let me Love You</a></h1>
-                                            <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">3:26</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>Add To playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>delete</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="album_inner_list_padding">
-                                <li><a href="#"><span class="play_no">05</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
-                                <li class="song_title_width">
-                                    <div class="top_song_artist_wrapper">
-
-                                        <img src="images/tp5.png" alt="img">
-
-                                        <div class="top_song_artist_contnt">
-                                            <h1><a href="#">Let me Love You</a></h1>
-                                            <p class="various_artist_text"><a href="#">Chrissy Costanza</a></p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li class="song_title_width"><a href="#">Kabir Singh — Arijit Singh 2019</a></li>
-                                <li class="text-center"><a href="#">3:26</a></li>
-
-                                <li class="text-center top_song_artist_playlist">
-                                    <div class="m24_tranding_more_icon">
-                                        <i class="flaticon-menu"></i>
-                                    </div>
-                                    <ul class="tranding_more_option">
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-playlist"></i></span>Add To playlist</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-share"></i></span>share</a></li>
-                                        <li><a href="#"><span class="opt_icon"><i class="flaticon-trash"></i></span>delete</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-            <ul class="pagination pagination-lg justify-content-center">
-                <li><a class="page-link" href="#"><i class="fal fa-angle-left"></i></a></li>
-                <li><a class="page-link active" href="#">1</a></li>
-                <li><a class="page-link" href="#">2</a></li>
-                <li><a class="page-link" href="#">3</a></li>
-                <li><a class="page-link" href="#"><i class="fal fa-angle-right"></i></a></li>
-            </ul>
+    </div>
+    <div class="m24_cover index3_top_songs_wrapper add_banner_wrapper custom_album_bottom_banner pb-30">
+        <div class=container>
+            <div class=row>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="m24_cover add_banner_img_wrapper">
+                        <a href=#><img alt=img src=images/add2.png class=img-responsive></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Latest Album Wrapper Start-->
+    <div class="latest_album_section m24_cover pb-30">
+        <div class="container">
+            <div class="latest_album_wrapper">
+                <h4 class="latest_album_title mb-40"><i class="fas fa-play-circle"></i> Latest Releases </h4>
+                <div class="col-xl-12 col-lg-12 col-md-12">
+                    <div class=tab-content>
+                        <div class="tab-pane active">
+                            <div class=row>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Jabariya Jodi</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel1.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Dilla Ther Jaa</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel2.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Ik Vaari Aa jaa</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel3.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Sadda Move song</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Jabariya Jodi</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4 col-sm-6 col-xl-3 pd1">
+                                    <div class="m24_cover treanding_slider_main_box release_box_main_content">
+                                        <img alt=img src=images/rel1.png>
+                                        <div class="release_content_artist release_content_artist2">
+                                            <p><a href="single_album.html">Dilla Ther Jaa</a></p>
+                                            <p class=various_artist_text><a href=#>Various Artists</a></p>
+                                        </div>
+                                        <div class="m24_treanding_box_overlay release_box_overlay">
+                                            <div class=m24_tranding_box_overlay></div>
+                                            <div class=m24_tranding_more_icon>
+                                                <i class=flaticon-menu></i>
+                                            </div>
+                                            <ul class=tranding_more_option>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-playlist></i></span>Add To playlist</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-star></i></span>favourite</a></li>
+                                                <li><a href=#><span class=opt_icon><i class=flaticon-share></i></span>share</a></li>
+                                            </ul>
+                                            <div class=tranding_play_icon>
+                                                <a href="single_album.html">
+                                                    <i class=flaticon-play-button></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top songs wrapper end -->
+    <div class="m24_cover index3_top_songs_wrapper add_banner_wrapper custom_album_bottom_banner pb-80">
+        <div class=container>
+            <div class=row>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="m24_cover add_banner_img_wrapper">
+                        <a href=#><img alt=img src=images/add2.png class=img-responsive></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m24_cover download_wrapper">
+        <div class=concert_overlay></div>
+        <div class=container>
+            <div class=row>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="m24_cover download_app_store">
+                        <h1>DOWNLOAD THIS APP</h1>
+                        <p>There are many variations of passages of Lorem Ipsum available, but passages of Lorem this is wow.</p>
+                        <div class="m24_cover app_btn">
+                            <a href=#>get the app now</a>
+                        </div>
+                        <ul class=download_app_logo>
+                            <li><a href=#><i class=flaticon-android-logo></i></a></li>
+                            <li><a href=#><i class=flaticon-apple></i></a></li>
+                            <li><a href=#><i class=flaticon-windows></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="m24_cover download_mockup_design">
+                        <img alt=img src=images/mockup.png class=img-responsive>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- top songs wrapper end -->
     <div class="contact_section m24_cover" id="contact">
