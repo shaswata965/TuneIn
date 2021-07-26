@@ -47,6 +47,23 @@
                 $("#firstYears").toggleClass("visible");
             }),
 
+            // Button Animation
+            $(".flac-format").on("mouseover",function(){
+
+                setTimeout(function(){
+                    $(".flac-format").html('<i class="fas fa-lock"></i> Only Available For Premium Users');
+                },300);
+
+            }),
+
+            $(".flac-format").on("mouseout",function(){
+
+                setTimeout(function(){
+                    $(".flac-format").html("<i class=\"fas fa-download\"></i> Flac Format Available (<1000Kbps)");
+                },300)
+            }),
+
+
 		// Main Slider Animation //
 		jQuery(document).ready(function($) {
             ! function(e) {
