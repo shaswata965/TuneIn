@@ -169,9 +169,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 user-dash-name">
-                    <div class="card user-card">
+                    <div class="card album-card">
                         <div class="card-body user-card-body album-card-body">
-                            <h5 class="text-center"><i class="fas fa-play-circle"></i>&nbsp;&nbsp; Play/Download <span>Name</span></h5>
+                            <h5 class="text-left"><i class="fas fa-play-circle"></i>&nbsp;&nbsp; Play/Download <span>Name</span></h5>
                             <div class="row justify-content-center">
                                 <div class="col-md-3 album-dash-image">
                                     <img src="images/rel2.png" class="img-fluid">
@@ -187,13 +187,13 @@
                                     <p class="description-span pt-1 pb-1"><span>Music Composer </span>:&nbsp;&nbsp; Someone, Someone</p>
                                     <p class="description-span pt-1 pb-1"><span>Lyricists </span>:&nbsp;&nbsp; Someone</p>
                                     <p class="description-span pt-1 pb-1"><span>Released On </span>:&nbsp;&nbsp; 19th July</p>
-                                </div>
-                                <div class="md-12 pt-10 album-dash-options">
-                                    <p class="text-center">
-                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-share-alt"></i>&nbsp;&nbsp; Share</a></span>
-                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-layer-plus"></i>&nbsp;&nbsp; Add To Playlist</a></span>
-                                        <span class="pl-4 pr-4"><a class="btn"><i class="fal fa-list"></i>&nbsp;&nbsp; Add To Queue</a></span>
-                                    </p>
+                                    <div class="md-12 pt-10 album-dash-options">
+                                        <p class="text-left">
+                                            <span class="pr-2"><a class="btn"><i class="fal fa-share-alt"></i>&nbsp;&nbsp; Share</a></span>
+                                            <span class="pl-2 pr-2"><a class="btn"><i class="fal fa-layer-plus"></i>&nbsp;&nbsp; Add To Playlist</a></span>
+                                            <span class="pl-2 pr-2"><a class="btn"><i class="fal fa-list"></i>&nbsp;&nbsp; Add To Queue</a></span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@
     <!-- artist single wrapper end -->
 
     <!--My Play List wrapper start -->
-    <div class="album_inner_list m24_cover pb-30" id="playlist">
+    <div class="album_inner_list m24_cover pb-30 pt-30" id="playlist">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
@@ -224,9 +224,12 @@
                             <ul class="album_list_name m24_cover">
                                 <li class="album-song-number">#</li>
                                 <li class="song_title_width album-detail-title">Song Title</li>
-                                <li class="text-center album-actions-title">Action</li>
-                                <li class="text-center add-playlist-title">Add To Playlist</li>
-                                <li class="download-option-title">Download Options</li>
+                                <li class="text-center album-actions-title">Play/Pause</li>
+                                <li class="text-center album-actions-title">Add To Favourite</li>
+                                <li class="text-center album-actions-title">Share</li>
+                                <li class="text-center add-playlist-title">Play Next</li>
+                                <li class="download-option-title">Download 128 Kbps</li>
+                                <li class="download-option-title">Download 320 Kbps</li>
                             </ul>
                             <ul class="album_inner_list_padding">
                                 <li class="album-song-number"><a href="#"><span class="play_no">01</span><span class="play_hover"><i class="flaticon-play-button"></i></span></a></li>
@@ -241,13 +244,19 @@
                                 </li>
                                 <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
                                 </li>
-                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center queue-option"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
                                 <li class="text-center top_song_artist_playlist delete-action-options">
-                                        <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
-                                        <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i> </a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
@@ -263,13 +272,19 @@
                                 </li>
                                 <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
                                 </li>
-                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center queue-option"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
                                 <li class="text-center top_song_artist_playlist delete-action-options">
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i> </a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
@@ -285,13 +300,19 @@
                                 </li>
                                 <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
                                 </li>
-                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center queue-option"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
                                 <li class="text-center top_song_artist_playlist delete-action-options">
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i> </a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
@@ -307,13 +328,19 @@
                                 </li>
                                 <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
                                 </li>
-                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center queue-option"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
                                 <li class="text-center top_song_artist_playlist delete-action-options">
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i> </a>
                                 </li>
                             </ul>
                             <ul class="album_inner_list_padding">
@@ -328,13 +355,19 @@
                                 </li>
                                 <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-warning"><i class="fas fa-play-circle"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-danger"><i class="fas fa-heart"></i></a>
+                                </li>
+                                <li class="song_title_width album-action-options text-center">
                                     <a href="#" class="btn btn-lg btn-inverse-success"><i class="fas fa-share-alt"></i></a>
                                 </li>
-                                <li class="text-center"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
+                                <li class="text-center queue-option"><a href="#" class="btn btn-lg btn-inverse-info"><i class="fas fa-layer-plus"></i></a></li>
                                 <li class="text-center top_song_artist_playlist delete-action-options">
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;128 Kbps</a>
-                                    <a class="btn btn-sm btn-inverse-success"><i class="fas fa-download"></i> &nbsp;&nbsp;320 Kbps</a>
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
+                                </li>
+                                <li class="text-center top_song_artist_playlist delete-action-options">
+                                    <a class="btn btn-lg btn-inverse-success"><i class="fas fa-download"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -342,13 +375,6 @@
                 </div>
             </div>
         </div>
-        <ul class="pagination pagination-lg justify-content-center">
-            <li><a class="page-link" href="#"><i class="fal fa-angle-left"></i></a></li>
-            <li><a class="page-link active" href="#">1</a></li>
-            <li><a class="page-link" href="#">2</a></li>
-            <li><a class="page-link" href="#">3</a></li>
-            <li><a class="page-link" href="#"><i class="fal fa-angle-right"></i></a></li>
-        </ul>
     </div>
 
     <!--Album Download Wrapper Start-->
@@ -358,11 +384,21 @@
                 <h4 class="album_download_title"><i class="fas fa-download"></i> Download All One <span>Zip</span></h4>
                 <button class="btn btn-inverse-success mt-20"><i class="fas fa-download"></i> 128 Kbps Zip</button>
                 <button class="btn btn-inverse-success mt-20 ml-20"><i class="fas fa-download"></i> 326 Kbps Zip</button>
-                <button class="btn btn-inverse-success mt-20 ml-20"><i class="fas fa-download"></i> Flac Format Available (<1000Kbps)</button>
+                <button class="btn btn-inverse-success mt-20 ml-20 flac-format"><i class="fas fa-download"></i> Flac Format Available (<1000Kbps)</button>
             </div>
         </div>
     </div>
-
+    <div class="m24_cover index3_top_songs_wrapper add_banner_wrapper custom_album_bottom_banner pb-30">
+        <div class=container>
+            <div class=row>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="m24_cover add_banner_img_wrapper">
+                        <a href=#><img alt=img src=images/large-banner.jpg class=img-responsive></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Related Album Wrapper Start-->
     <div class="related_album_section m24_cover pb-30">
         <div class="container">
@@ -474,17 +510,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="m24_cover index3_top_songs_wrapper add_banner_wrapper custom_album_bottom_banner pb-30">
-        <div class=container>
-            <div class=row>
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="m24_cover add_banner_img_wrapper">
-                        <a href=#><img alt=img src=images/add2.png class=img-responsive></a>
                     </div>
                 </div>
             </div>
