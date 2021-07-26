@@ -219,7 +219,7 @@
 }
 
 @media only screen and (min-width: 280px) and (max-width: 768px) {
-    .album-action-options a{
+    .album-action-options a,.delete-action-options a,.queue-option a{
         padding-right: 5px;
         padding-left: 5px;
         margin-right: 0;

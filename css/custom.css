@@ -977,7 +977,7 @@ box-shadow: none;
 }
 
 .album-dash-image img{
-    height: 12rem;
+    height: 90%;
     width: 12rem;
     position: absolute;
     left: 0;
@@ -1017,9 +1017,17 @@ box-shadow: none;
     width: 8rem;
 }
 
+.album-dash-options{
+    background-color: #0f0e37;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .album-dash-options p span{
     color: #fa5b41;
     font-size: 20px;
+    margin-left: -5px;
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -1049,11 +1057,11 @@ box-shadow: none;
 }
 
 .album-action-options{
-    width:30%!important;
+    width:12.33%!important;
 }
 
 .album-actions-title{
-    width:30%!important;
+    width:12.33%!important;
 }
 
 .album-action-options a{
@@ -1066,15 +1074,13 @@ box-shadow: none;
 }
 
 .download-option-title{
-    width: 30%!important;
+    width: 10%!important;
     text-align: center!important;
 }
 
 .delete-action-options{
-    width: 30%!important;
+    width: 10%!important;
     text-align: center!important;
-    padding-top: 6px;
-    padding-bottom: 2px;
 }
 
 .delete-action-options a{
@@ -1126,6 +1132,10 @@ box-shadow: none;
     background-color: #ff7e00;
     border-radius: 7px;
     padding: 20px;
+}
+
+.album-card{
+    background-color: #04031d;
 }
 
 /*Single ALbum Page Styling End*/
