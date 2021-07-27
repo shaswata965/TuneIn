@@ -1055,7 +1055,9 @@ box-shadow: none;
 }
 
 .album-actions-title{
-    width:12.33%!important;
+    width:7.33%!important;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
 .album-action-options a{
