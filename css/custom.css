@@ -977,13 +977,13 @@ box-shadow: none;
 }
 
 .album-dash-image img{
-    height: 90%;
+    height: 95%;
     width: 12rem;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
-    bottom: 0;
+    bottom: 15px;
     margin: auto;
 }
 
@@ -1007,6 +1007,7 @@ box-shadow: none;
 .album-dash-heading p{
     color: #ffffff;
     font-size: 14px;
+    padding-right:15px;
 }
 
 .album-dash-heading .description-span span{
@@ -1015,13 +1016,6 @@ box-shadow: none;
     color: #ff7e00;
     display: inline-block;
     width: 8rem;
-}
-
-.album-dash-options{
-    background-color: #0f0e37;
-    border-radius: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .album-dash-options p span{
