@@ -8,6 +8,7 @@
     "use strict";
     var tpj = jQuery,
         revapi24;
+    var count = 0;
 
  /*--- Responsive Menu Start ----*/		
 		$("#toggle").on("click", function() {
@@ -64,9 +65,13 @@
             }),
 
             $(".user-noti-button").on("click",function (){
-               setTimeout(function (){
-                   $(".user-noti-simulate-icon").trigger("click");
-               }, 300)
+                count++;
+                let notiShow = count % 2;
+                if(notiShow !== 0){
+                    setTimeout(function (){
+                        $(".user-noti-simulate-icon").trigger("click");
+                    }, 300)
+                }
             })
 
 
