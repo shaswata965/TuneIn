@@ -63,6 +63,12 @@
                 },300)
             }),
 
+            $(".user-noti-button").on("click",function (){
+               setTimeout(function (){
+                   $(".user-noti-simulate-icon").trigger("click");
+               }, 300)
+            })
+
 
 		// Main Slider Animation //
 		jQuery(document).ready(function($) {
