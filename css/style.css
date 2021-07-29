@@ -4599,7 +4599,7 @@ body.off-canvas-overlay-on {
 }
 .top_song_artist_wrapper .various_artist_text a{
 	font-weight:300 !important;
-	font-size:14px !important;
+	font-size:14px;
 	color:#797979 !important;
 }
 .album_list_wrapper>ul>li:last-child{
