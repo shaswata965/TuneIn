@@ -1177,7 +1177,7 @@ box-shadow: none;
     height:55%;
     border-left: 2px solid #FFFFFF;
     position: absolute;
-    left: 80%;
+    left: 82%;
     margin-left: -3px;
     top: 0;
 }
@@ -1185,8 +1185,8 @@ box-shadow: none;
 .vl-text{
     position: absolute;
     top:35%;
-    left: -1.65rem;
-    padding: .85rem 1rem .8rem 1rem;
+    left: -24px;
+    padding: .7rem 1rem .7rem 1rem;
     background-color: #FFFFFF;
     color:#333333;
     border-radius: 50%;
@@ -1204,9 +1204,9 @@ box-shadow: none;
 
 .vl-register-text{
     position: absolute;
-    top:35%;
-    left: -1.65rem;
-    padding: .85rem 1rem .8rem 1rem;
+    top:40%;
+    left: -24px;
+    padding: .7rem 1rem .7rem 1rem;
     background-color: #FFFFFF;
     color:#333333;
     border-radius: 50%;
