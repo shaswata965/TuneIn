@@ -298,12 +298,18 @@
     }
 
     .delete-action-options{
-        margin-left: 2%;
+        margin-left: 2.5%!important;
     }
-
+    .download-option-title{
+        margin-left: 1%;
+    }
+    .album_list_wrapper3>ul>li:last-child{
+        margin-left: 0;
+        text-align: right!important;
+    }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 480px) {
+@media only screen and (min-width: 350px) and (max-width: 440px) {
     .song-number-title {
         width: 3% !important;
         font-size: 8px !important;
@@ -368,18 +374,108 @@
 
     .delete-action-options {
         width: 6% !important;
-        margin-left: 1%;
         text-align: center !important;
+    }
+    .delete-action-options{
+        margin-left: 1%!important;
+    }
+    .download-option-title{
+        margin-left: .5%;
+    }
+    .album_list_wrapper3>ul>li:last-child{
+        margin-left: 0;
+        text-align: right!important;
     }
 
     .single-album-play-icon {
         display: none !important;
     }
 
-    .single_album_list_wrapper2 {
-        overflow-y: hidden;
-        overflow-x: hidden;
+
+}
+
+@media only screen and (min-width: 440px) and (max-width: 480px) {
+    .song-number-title {
+        width: 4% !important;
+        font-size: 8px !important;
     }
+
+    .album-detail-title {
+        width: 8% !important;
+        font-size: 8px !important;
+    }
+
+    .album-actions-title {
+        width: 4.33% !important;
+        margin-left: 2%;
+        margin-right: 1%;
+        font-size: 8px !important;
+    }
+
+    .add-playlist-title {
+        font-size: 8px !important;
+    }
+
+    .download-option-title {
+        width: 8% !important;
+        text-align: center !important;
+        font-size: 8px !important;
+    }
+
+    .album-action-first {
+        margin-left: 1%;
+    }
+
+    .single-album-song-number {
+        width: 5% !important;
+    }
+
+    .single-album-song-number a .play_no {
+        font-size: 8px;
+    }
+
+    .single-album-name-singer {
+        width: 8% !important;
+    }
+
+    .single-album-name-singer div div h1 a {
+        font-size: 12px;
+    }
+
+    .single-album-name-singer div div p a {
+        font-size: 8px !important;
+    }
+
+    .album-action-options {
+        width: 4.33% !important;
+        margin-left: 2%;
+        margin-right: 1%;
+    }
+
+    .single-album-queue-option {
+        width: 8% !important;
+        margin-left: 1%;
+    }
+
+    .delete-action-options {
+        width: 8% !important;
+        text-align: center !important;
+    }
+    .delete-action-options{
+        margin-left: 1%!important;
+    }
+    .download-option-title{
+        margin-left: 1%;
+    }
+    .album_list_wrapper3>ul>li:last-child{
+        margin-left: 1%;
+        text-align: center!important;
+    }
+
+    .single-album-play-icon {
+        display: none !important;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {

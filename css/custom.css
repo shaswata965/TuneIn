@@ -1066,17 +1066,20 @@ box-shadow: none;
 }
 
 .album_list_wrapper3>ul>li:last-child{
-    text-align: center!important;
+    margin-left: 1.5%;
+    text-align: right!important;
 }
 
 .download-option-title{
     width: 10%!important;
     text-align: center!important;
+    margin-left: 1.5%;
 }
 
 .delete-action-options{
     width: 10%!important;
     text-align: center!important;
+    margin-left: 1.5%;
 }
 
 .delete-action-options a{
@@ -1132,6 +1135,10 @@ box-shadow: none;
 
 .album-card{
     background-color: #04031d;
+}
+.single_album_list_wrapper2 {
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*Single ALbum Page Styling End*/
