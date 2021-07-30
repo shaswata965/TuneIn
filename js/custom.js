@@ -67,12 +67,23 @@
             $(".user-noti-button").on("click",function (){
                 count++;
                 let notiShow = count % 2;
-                if(notiShow !== 0){
-                    setTimeout(function (){
-                        $(".user-noti-simulate-icon").trigger("click");
-                    }, 300)
+                let viewPort = $(document).width();
+                if(viewPort <= 1200){
+                    if(notiShow !== 0){
+                        setTimeout(function (){
+                            $(".user-noti-simulate-icon").trigger("click");
+                        }, 300);
+                    }
+                }else{
+                    if(notiShow !== 0){
+                        setTimeout(function (){
+                            $(".user-notification-simulate-icon").trigger("click");
+                        }, 300);
+                    }
                 }
-            })
+
+
+            }),
 
 
 		// Main Slider Animation //
