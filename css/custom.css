@@ -1145,7 +1145,7 @@ box-shadow: none;
     transition: all 0.3s ease-in-out 0s;
 }
 
-.bottom-download-button:hover>i{
+.bottom-download-button:hover{
     color: #fa5b41;
 }
 
