@@ -1082,16 +1082,6 @@ box-shadow: none;
     margin-left: 1.5%;
 }
 
-.delete-action-options a{
-    color: #1bcfb4!important;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: all 0.3s ease-in-out 0s;
-}
-.delete-action-options a:hover{
-    color: #fa5b41!important;
-}
-
 .album_download_all{
     background-color: #04031d;
 }
@@ -1147,6 +1137,10 @@ box-shadow: none;
 
 .bottom-download-button:hover{
     color: #fa5b41;
+}
+
+.link-color-change{
+    color: #fa5b41!important;
 }
 
 /*Single ALbum Page Styling End*/
