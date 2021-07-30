@@ -1141,6 +1141,14 @@ box-shadow: none;
     overflow-x: hidden;
 }
 
+.bottom-download-button{
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.bottom-download-button:hover>i{
+    color: #fa5b41;
+}
+
 /*Single ALbum Page Styling End*/
 
 /*Login Modal Styling Start*/
