@@ -19,12 +19,12 @@
 @media only screen and (max-width: 568px) {
     .left-sidebar-ad img{
         top: 150px;
-        min-height: 200px;
+        min-height: 300px;
     }
 
     .right-sidebar-ad img{
         top: 150px;
-        min-height: 200px;
+        min-height: 300px;
         margin-left: -15px;
     }
 }
