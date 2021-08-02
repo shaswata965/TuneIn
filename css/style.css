@@ -30,7 +30,7 @@
 /*--------------
 1.Theme default CSS
 --------------------------*/
-body, html {
+body{
 	font-family: 'Roboto';
 	font-size: 16px;
 	line-height: 24px;
@@ -5678,7 +5678,7 @@ body.off-canvas-overlay-on {
 }
 .featured_playlist_new .treanding_slider_main_box{
 	position:relative;
-	overflow:hidden;	
+	overflow:hidden;
 }
 .top_artist_border{
 	padding-bottom:30px;

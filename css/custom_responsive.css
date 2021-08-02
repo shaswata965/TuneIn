@@ -14,6 +14,21 @@
 
 /*NavBar Styling End*/
 
+/*Landing Page Styling Start*/
+
+@media only screen and (max-width: 568px) {
+    .left-sidebar-ad img{
+        top: 150px;
+    }
+
+    .right-sidebar-ad img{
+        top: 150px;
+        margin-left: -15px;
+    }
+}
+
+/*Landing Page Styling End*/
+
 /*User Dash Styling Start*/
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {

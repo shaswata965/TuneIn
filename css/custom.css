@@ -420,6 +420,10 @@
 
 /*Styling For All Start*/
 
+.ad-container{
+    background-color: #04031d;
+}
+
 .border-1{
     border: 1px solid #00c792;
     border-radius: 15px;
@@ -476,6 +480,48 @@
 /*NavBar Styling End*/
 
 /*Landing Section Styling Start*/
+
+.add_banner_wrapper{
+ overflow-x: hidden;
+}
+
+.download_wrapper .row{
+    margin-right: 0!important;
+}
+
+ .download_mockup_design{
+    overflow-x: hidden;
+}
+
+.download_mockup_design img{
+    width: 80%;
+}
+
+.custom_albums_wrapper{
+    overflow-x: hidden;
+}
+
+.left-sidebar-ad img{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 100px;
+    min-width: 20px;
+}
+
+.right-sidebar-ad img{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 100px;
+    min-width: 20px;
+}
 
 .treanding_album_slider {
     float: left;
