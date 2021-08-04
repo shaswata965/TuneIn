@@ -4602,9 +4602,6 @@ body.off-canvas-overlay-on {
 	font-size:14px;
 	color:#797979 !important;
 }
-.album_list_wrapper>ul>li:last-child{
-	text-align:right!important;
-}
 .top_song_artist_playlist ul.tranding_more_option{
 	width:170px;
 	background: #fbfbfb;
