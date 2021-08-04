@@ -29,6 +29,144 @@
     }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .music_section_tabs_wrapper .nav-tabs .nav-item a{
+        font-size: 13px!important;
+        padding: 10px 5px!important;
+    }
+
+    .new-release-album-wrapper h4{
+        font-size: 18px;
+    }
+
+    .new-release-view-all-wrapper a, .new-release-view-all-wrapper a i{
+        font-size: 13px;
+    }
+
+    .relaese_viewall_wrapper{
+        padding: 2px 0 0 7px;
+    }
+
+    .new-release-artist-detail p a{
+        font-size: 16px;
+    }
+}
+
+@media  only screen and (min-width: 992px) and (max-width: 1100px) {
+    .new-release-content-artist{
+        padding-left: 10px!important;
+    }
+
+    .new-release-content-artist p a{
+        font-size: 16px!important;
+    }
+
+    .lang_apply_btn a{
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .new-release-content-artist{
+        padding-left: 5px!important;
+    }
+
+    .new-release-content-artist p a{
+        font-size: 12px!important;
+    }
+
+    .new-release-list-left{
+        width: 60%;
+    }
+
+    .new-release-list-right{
+        width: 40%;
+    }
+
+    .new-release-tract-time p, .new-release-tract-view p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 500px) {
+    .new-release-content-artist{
+        padding-left: 3px!important;
+    }
+
+    .new-release-content-artist p a{
+        font-size: 10px!important;
+        max-width: 15px;
+    }
+
+    .new-release-list-left{
+        width: 70%;
+    }
+
+    .new-release-list-right{
+        width: 30%;
+    }
+    .top_song_list_picks .m24_tranding_more_icon i:before{
+        font-size: 10px;
+    }
+
+    .new-release-tract-time p, .new-release-tract-view p{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width: 450px) {
+    .new-release-content-artist{
+        padding-left: 3px!important;
+    }
+
+    .new-release-content-artist p a{
+        font-size: 8px!important;
+        max-width: 15px;
+    }
+
+    .new-release-list-left{
+        width: 70%;
+    }
+
+    .new-release-list-right{
+        width: 30%;
+    }
+    .top_song_list_picks .m24_tranding_more_icon i:before{
+        font-size: 8px;
+    }
+
+    .new-release-tract-time p, .new-release-tract-view p{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 380px) {
+    .new-release-content-artist{
+        padding-left: 1px!important;
+    }
+
+    .new-release-content-artist p a{
+        font-size: 8px!important;
+        max-width: 15px;
+    }
+
+    .new-release-list-left{
+        width: 80%;
+    }
+
+    .new-release-list-right{
+        width: 20%;
+    }
+    .top_song_list_picks .m24_tranding_more_icon i:before{
+        font-size: 6px;
+    }
+
+    .new-release-tract-time p, .new-release-tract-view p{
+        font-size: 6px;
+    }
+}
+
 /*Landing Page Styling End*/
 
 /*User Dash Styling Start*/

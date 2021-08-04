@@ -489,12 +489,8 @@
     margin-right: 0!important;
 }
 
- .download_mockup_design{
+ .overflow-mockup-design{
     overflow-x: hidden;
-}
-
-.download_mockup_design img{
-    width: 80%;
 }
 
 .custom_albums_wrapper{
