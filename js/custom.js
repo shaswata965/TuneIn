@@ -39,13 +39,16 @@
             // Year Slider Js
 
             $("#previous").on("click",function(){
-               $("#firstYears").toggleClass("visible");
-               $("#secondYears").toggleClass("invisible");
+                setTimeout(function (){
+                    $("#firstYears").toggleClass("visible");
+                    $("#secondYears").toggleClass("invisible");},300);
             }),
 
             $("#next").on("click",function(){
-                $("#secondYears").toggleClass("invisible");
-                $("#firstYears").toggleClass("visible");
+                setTimeout(function (){
+                    $("#secondYears").toggleClass("invisible");
+                    $("#firstYears").toggleClass("visible");
+                },300);
             }),
 
             // Button Animation
@@ -63,6 +66,8 @@
                     $(".flac-format").html("<i class=\"fas fa-download\"></i> Flac Format Available (<1000Kbps)");
                 },300)
             }),
+
+            // Notification Button Pop
 
             $(".user-noti-button").on("click",function (){
                 count++;
