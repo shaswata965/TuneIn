@@ -258,12 +258,13 @@
         position: absolute;
         bottom: -50px;
     }
-    .year_list a{
+    .year_list a, .year_list2 a{
         height: 2.5rem;
         width: 5rem;
         padding-top: .6rem;
         margin: 8px;
     }
+
 }
 @media only screen and (min-width: 490px) and (max-width: 775px){
     .custom_album_bottom_banner{
@@ -274,7 +275,7 @@
         position: absolute;
         bottom: -300px;
     }
-    .year_list a{
+    .year_list a, .year_list2 a{
         height: 2.5rem;
         width: 5rem;
         padding-top: .6rem;
@@ -290,7 +291,7 @@
         position: absolute;
         bottom: -390px;
     }
-    .year_list a{
+    .year_list a, .year_list2 a{
         height: 2.5rem;
         width: 5rem;
         padding-top: .6rem;
@@ -306,7 +307,7 @@
         position: absolute;
         bottom: -300px;
     }
-    .year_list a{
+    .year_list a, .year_list2 a{
         height: 2rem;
         width: 4rem;
         padding-top: .3rem;
@@ -322,7 +323,7 @@
         position: absolute;
         bottom: -300px;
     }
-    .year_list a{
+    .year_list a, .year_list2 a{
         height: 2rem;
         width: 4rem;
         padding-top: .2rem;
