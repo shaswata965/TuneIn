@@ -53,7 +53,7 @@
     }
 }
 
-@media  only screen and (min-width: 992px) and (max-width: 1100px) {
+@media  only screen and (min-width: 992px) and (max-width: 1300px) {
     .new-release-content-artist{
         padding-left: 10px!important;
     }
@@ -166,6 +166,19 @@
         font-size: 6px;
     }
 }
+
+@media only screen and (min-width: 998px) and (max-width: 1020px) {
+    .featured_artist_list{
+        padding: 8px 10px 8px 10px;
+    }
+}
+
+@media only screen and (min-width: 998px) and (max-width: 1020px) {
+    .featured_artist_list{
+        padding: 4px 10px 4px 10px;
+    }
+}
+
 
 /*Landing Page Styling End*/
 
