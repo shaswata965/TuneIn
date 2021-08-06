@@ -167,7 +167,7 @@
     }
 }
 
-@media only screen and (min-width: 998px) and (max-width: 1020px) {
+@media only screen and (min-width: 1020px) and (max-width: 1050px) {
     .featured_artist_list{
         padding: 8px 10px 8px 10px;
     }
@@ -176,6 +176,12 @@
 @media only screen and (min-width: 998px) and (max-width: 1020px) {
     .featured_artist_list{
         padding: 4px 10px 4px 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    .download_mockup_design img{
+        width: 135%;
     }
 }
 
