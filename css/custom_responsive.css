@@ -285,7 +285,7 @@
     }
 
 }
-@media only screen and (min-width: 490px) and (max-width: 775px){
+@media only screen and (min-width: 630px) and (max-width: 775px){
     .custom_album_bottom_banner{
         padding-top: 300px;
     }
@@ -301,14 +301,30 @@
         margin: 8px;
     }
 }
-@media only screen and (min-width: 396px) and (max-width: 490px){
+@media only screen and (min-width: 520px) and (max-width: 630px){
     .custom_album_bottom_banner{
-        padding-top: 380px;
+        padding-top: 370px;
     }
     .year_list-navigation{
-        margin-left: 70%;
+        margin-left: 75%;
         position: absolute;
-        bottom: -390px;
+        bottom: -370px;
+    }
+    .year_list a, .year_list2 a{
+        height: 2.5rem;
+        width: 5rem;
+        padding-top: .6rem;
+        margin: 8px;
+    }
+}
+@media only screen and (min-width: 396px) and (max-width: 520px){
+    .custom_album_bottom_banner{
+        padding-top: 500px;
+    }
+    .year_list-navigation{
+        margin-left: 65%;
+        position: absolute;
+        bottom: -500px;
     }
     .year_list a, .year_list2 a{
         height: 2.5rem;
@@ -319,12 +335,12 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 396px){
     .custom_album_bottom_banner{
-        padding-top: 300px;
+        padding-top: 100px;
     }
     .year_list-navigation{
-        margin-left: 65%;
+        margin-left: 55%;
         position: absolute;
-        bottom: -300px;
+        bottom: -400px;
     }
     .year_list a, .year_list2 a{
         height: 2rem;
@@ -665,7 +681,35 @@
     }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1160px) {
+    .user-dash-description .row div h4{
+        font-size: 18px;
+    }
+    .user-dash-description .row div h5{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 630px) {
+    .user-dash-description .row div h4{
+        font-size: 18px;
+    }
+    .user-dash-description .row div h5{
+        font-size: 16px;
+    }
+}
+
 /*Single Album Styling End*/
+
+/*Filter Styling Start*/
+
+@media  only screen and (max-width: 650px) {
+    .release_box_main_content:hover .release_content_box{
+        bottom: 40px;
+    }
+}
+
+/*Filter Styling End*/
 
 /*Custom Login Modal Styling Start*/
 
